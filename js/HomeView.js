@@ -4,7 +4,7 @@ var HomeView = function (adapter, template, listItemTemplate) {
         // Define a div wrapper for the view. The div wrapper is used to attach events.
         this.el = $('<div/>');
         this.el.on('keyup', '.search-key', this.findByName);
-        this.el.on('keyup', '.search-key', function(){alert(device.uuid);});
+        this.el.on('keyup', '.search-key', function(){alert("device.uuid ");});
     };
 
     this.render = function() {
