@@ -12,4 +12,6 @@
 
     <preference name="DisallowOverscroll" value="true" />
 
+    <gap:plugin name="org.apache.cordova.device" />
+
 </widget>
